@@ -27,21 +27,21 @@ local function checkWhitelist()
                     return true
                 end
             else
-                print("❌ Player not found in whitelist data")
+                print("❌ fuck u")
             end
         else
-            print("❌ Failed to decode JSON data")
+            print("❌ Fuck you")
         end
     else
-        print("❌ Failed to get response from Pastebin:", response)
+        print("❌ fuck you", response)
     end
     
-    print("❌ User is not whitelisted!")
+    print("❌ fuck you")
     return false
 end
 
 if not checkWhitelist() then
-    print("❌ Access denied - not whitelisted")
+    print("❌ fuck you")
     return
 end
 ]]
